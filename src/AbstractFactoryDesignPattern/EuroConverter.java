@@ -1,4 +1,8 @@
-package FactoryDesignPattern;
+package AbstractFactoryDesignPattern;
+
+import model.Convertor;
+import model.Currency;
+import model.Euro;
 
 public class EuroConverter implements Convertor {
     @Override

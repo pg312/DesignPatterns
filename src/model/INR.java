@@ -1,9 +1,10 @@
-package FactoryDesignPattern;
+package model;
 
-public class USD implements Currency {
+public class INR implements Currency {
+
     private double units;
 
-    USD(double units){
+    public INR(double units) {
         this.units = units;
     }
 

@@ -1,4 +1,4 @@
-package FactoryDesignPattern;
+package model;
 
 public class Euro implements Currency {
     private  double units;

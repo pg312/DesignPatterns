@@ -1,4 +1,6 @@
-package FactoryDesignPattern;
+package model;
+
+import model.Currency;
 
 public interface Convertor {
 

@@ -1,4 +1,4 @@
-package FactoryDesignPattern;
+package model;
 
 public interface Currency {
 
