@@ -1,5 +1,6 @@
 import AbstractFactoryDesignPattern.AbstractFactoryDesignPattern;
 import FactoryDesignPattern.FactoryDesignPattern;
+import SingletonDesignPattern.SingletonDesignPattern;
 
 public class Main {
 
@@ -9,5 +10,8 @@ public class Main {
 
         AbstractFactoryDesignPattern abstractFactoryDesignPattern = new AbstractFactoryDesignPattern();
         abstractFactoryDesignPattern.abstractFactoryDesignPatternExample();
+
+        SingletonDesignPattern singletonDesignPattern = new SingletonDesignPattern();
+        singletonDesignPattern.singletonPatternExample();
     }
 }
