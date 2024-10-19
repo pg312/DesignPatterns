@@ -1,4 +1,5 @@
 import AbstractFactoryDesignPattern.AbstractFactoryDesignPattern;
+import BuilderDesignPattern.BuilderDesignPattern;
 import FactoryDesignPattern.FactoryDesignPattern;
 import SingletonDesignPattern.SingletonDesignPattern;
 
@@ -13,5 +14,8 @@ public class Main {
 
         SingletonDesignPattern singletonDesignPattern = new SingletonDesignPattern();
         singletonDesignPattern.singletonPatternExample();
+
+        BuilderDesignPattern builderDesignPattern = new BuilderDesignPattern();
+        builderDesignPattern.builderDesignPatternExample();
     }
 }
