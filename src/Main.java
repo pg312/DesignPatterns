@@ -1,6 +1,7 @@
 import AbstractFactoryDesignPattern.AbstractFactoryDesignPattern;
 import BuilderDesignPattern.BuilderDesignPattern;
 import FactoryDesignPattern.FactoryDesignPattern;
+import PrototypeDesignPattern.PrototypeDesignPattern;
 import SingletonDesignPattern.SingletonDesignPattern;
 
 public class Main {
@@ -17,5 +18,8 @@ public class Main {
 
         BuilderDesignPattern builderDesignPattern = new BuilderDesignPattern();
         builderDesignPattern.builderDesignPatternExample();
+
+        PrototypeDesignPattern prototypeDesignPattern = new PrototypeDesignPattern();
+        prototypeDesignPattern.prototypeDesignPatternExample();
     }
 }
